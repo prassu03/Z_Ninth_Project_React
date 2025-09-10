@@ -1,0 +1,60 @@
+.home-container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  background-color: rgba(0,0,0,0.5);
+}
+.home-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+.home-content {
+  position: relative;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  max-width: 900px;
+}
+
+.home-title {
+  font-family: "Times New Roman", serif;
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.home-btn {
+  margin-top: 20px;
+  padding: 10px 30px;
+  font-size: 1.2rem;
+  border-radius: 30px;
+}
+@media (max-width: 768px) {
+  .home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+  }
+  .home-title {
+      text-align: center;
+      font-size: 1.7rem;
+      width: 85%;
+    }
+  .menu-icon-mobile {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    z-index: 10;
+    font-size: 2.5rem;
+    cursor: pointer;
+  }
+}
