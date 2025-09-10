@@ -1,7 +1,6 @@
 import React,{ useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import {Link } from 'react-router-dom';
-// import {Link  as ScrollLink} from 'react-scroll';
 import "./Navbar.css";
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseOutlinedIcon from '@mui/icons-material/CloseOutlined';
