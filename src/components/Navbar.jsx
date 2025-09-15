@@ -60,10 +60,10 @@ export default function Navbar() {
               <ul className="dropdown-menu" aria-labelledby="servicesDropdown">
                 <li><Link className="nav-link dropdown-item" to="/Salesforce">Salesforce</Link></li>
                 <li><Link className="nav-link dropdown-item" to="/Mulesoft">Mulesoft</Link></li>
-                <li><a className="nav_link dropdown-item" href="/AI" target="_blank">AI Solutions</a></li>
-                {/* <li><Link className="nav-link dropdown-item" to="/AI">AI Solutions</Link></li> */}
-                <li><a className="nav_link dropdown-item" href="/Integration" target="_blank">Integration Services</a></li>
-                {/* <li><Link className="nav-link dropdown-item" to="/Integration">Integration Services</Link></li> */}
+{/*                 <li><a className="nav_link dropdown-item" href="/AI" target="_blank">AI Solutions</a></li> */}
+                <li><Link className="nav-link dropdown-item" to="/AI" target="_blank">AI Solutions</Link></li>
+{/*                 <li><a className="nav_link dropdown-item" href="/Integration" target="_blank">Integration Services</a></li> */}
+                <li><Link className="nav-link dropdown-item" to="/Integration" target="_blank">Integration Services</Link></li>
               </ul>
             </li>
             <li className="nav-item">
